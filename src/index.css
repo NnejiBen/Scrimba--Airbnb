@@ -6,12 +6,14 @@
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 #root {
     width: 624px;
-    margin: 16px;
-    background-color: rgb(243, 228, 228);
+    margin: 16px auto;
+    /* background-color: #f9f9f9; */
+    background-color: #ececec;
     border-radius: 8px;
 }
 
@@ -43,14 +45,12 @@ nav {
 }
 
 .hero--heading {
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 36px;
     margin: 8px 30px;
 }
 
 .hero--text {
-    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 16px;
     color: #222222;
@@ -67,4 +67,40 @@ nav {
 
 .cards {
     margin-right: 16px;
+    margin-bottom: 32px;
+}
+
+.cards--image {
+    width: 176px;
+}
+
+.cards--stats {
+    margin-bottom: 4px;
+}
+
+.cards--star {
+    width: 14px;
+    margin-right: 4px;
+    margin-bottom: -2px;
+}
+
+.cards--rating {
+    margin-right: 4px;
+}
+
+.cards--text {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.cards--gray {
+    font-size: 12px;
+    font-weight: 300;
+    color: #918E9B;
+}
+
+.cards--bold {
+    font-size: 12px;
+    font-weight: 600;
+    color: #222222;
 }
