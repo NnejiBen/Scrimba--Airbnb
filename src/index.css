@@ -10,7 +10,7 @@
 }
 
 #root {
-    width: 624px;
+    width: 628px;
     margin: 16px auto;
     /* background-color: #f9f9f9; */
     background-color: #ececec;
@@ -60,14 +60,16 @@ nav {
 
 /* CARDS SECTION */
 
-.cards-section {
-    /* display: flex; */
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
     margin: 30px;
+    /* overflow-x: auto; */
 }
 
-.card {
-    margin-right: 16px;
-    margin-bottom: 32px;
+.cards {
+    margin: 20px auto 32px auto;
 }
 
 .cards--badge {
