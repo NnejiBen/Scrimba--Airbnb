@@ -70,6 +70,7 @@ nav {
 
 .cards {
     margin: 20px auto 32px auto;
+    position: relative;
 }
 
 .cards--badge {
@@ -83,9 +84,10 @@ nav {
     background-color: white;
     width: 72px;
     height: 20px;
-    margin-bottom: -26px;
+    margin-top: 6px;
     margin-left: 6px;
-    position:sticky;
+    position: absolute;
+    border-radius: 2px;
 }
 
 .cards--image {
